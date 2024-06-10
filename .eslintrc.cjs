@@ -13,6 +13,7 @@ module.exports = {
   ],
   ignorePatterns: [
     'dist',
+    'api-types',
     '.eslintrc.cjs',
     'postcss.config.js',
     'tailwind.config.js',
@@ -47,6 +48,7 @@ module.exports = {
       { ignoreArrowShorthand: true },
     ],
     '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/array-type': 'off',
 
     'import/order': [
       'error',
